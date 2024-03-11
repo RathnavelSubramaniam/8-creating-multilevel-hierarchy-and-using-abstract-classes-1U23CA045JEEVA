@@ -52,7 +52,7 @@ public void sound()
     }else{
         System.out.println("Parrot sound");
     }
-}
+    }
 }
 public class Practical8 {
 public static void main(String[] args) {
