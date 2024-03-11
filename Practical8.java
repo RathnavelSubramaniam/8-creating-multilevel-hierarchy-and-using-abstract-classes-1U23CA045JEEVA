@@ -59,7 +59,11 @@ public static void main(String[] args) {
  Mammal lion = new Mammal("Lion",5,"Grasslands");
  Bird eagle = new Bird("Eagle",3,"Brown");
  Parrot talkingParrot = new Parrot("TalkingParrot",2,"Green",true);
+  System.out.println(lion);
+ System.out.println(eagle);
+  System.out.println(talkingParrot);
  System.out.println("Are lion and eagle equal?" +lion.equals(eagle));
  System.out.println("Are lion and eagle equal?" +lion.equals(new Mammal("Lion",5,"Grassland")));
+
 }
 }
